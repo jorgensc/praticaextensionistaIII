@@ -12,7 +12,7 @@ A aplicação foi desenvolvida com foco em:
 * Sistema de Autenticação para diferentes perfis de usuário (Administrador)
 * Interface intuitiva e responsiva para facilitar o uso.
 
-![Captura de Tela do Sistema Coloratto Tintas](https://github.com/user-attachments/assets/5137977f-ec81-4ac2-ab5f-4d217640c4c3)
+![image](https://github.com/user-attachments/assets/5137977f-ec81-4ac2-ab5f-4d217640c4c3)
 
 ## Funcionalidades Principais
 

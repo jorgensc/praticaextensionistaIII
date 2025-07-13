@@ -2,7 +2,7 @@
 Entrega final prática extensionista III
 
 Sobre o Projeto
-Este projeto consiste na criação de uma aplicação web com PHP e banco de dados MYSQL para um site de comércio eletrônico. O objetivo do projeto foi a disciplina de Prática Integrada I do curso de Sistemas de Informação da Universidade do Oeste de Santa Catarina (Unoesc - Chapecó).
+Este projeto consiste na criação de uma aplicação web com PHP e banco de dados MYSQL para um site de comércio eletrônico. O objetivo do projeto foi a disciplina de Prática Extensionista III do curso de Análise e desenvolvimento de sistemas da Universidade do Oeste de Santa Catarina (Unoesc - Chapecó).
 
 A contribuição dos usuários:
 
@@ -15,4 +15,4 @@ PHP
 CSS
 HTML
 MYSQL
-Bootstrap
+BOOTSTRAP

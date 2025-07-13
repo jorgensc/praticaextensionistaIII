@@ -1,0 +1,266 @@
+/* Core styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #F3F1EC; /* Cor de fundo suave */
+}
+
+.text-laranja {
+  color: #F26B1D !important;
+}
+
+h1{
+    font-family: 'Lora', serif;
+    color: #F3F1EC;
+    margin-bottom: 1rem;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+    color: #1D1D1D;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #F26B1D; /* Cor laranja para links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E05F1C; /* Laranja mais escuro no hover */
+    text-decoration: underline;
+}
+
+/* Header */
+.site-header {
+    background-color: #1D1D1D; /* Preto escuro */
+    padding: 1rem 0;
+    border-bottom: 5px solid #F26B1D; /* Laranja */
+}
+
+.site-logo {
+    max-height: 100px; /* Ajuste o tamanho do logo */
+    width: auto;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-nav .nav-link {
+    color: #F3F1EC; /* Branco off-white */
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #F26B1D; /* Laranja no hover/ativo */
+}
+
+.dropdown-menu {
+    background-color: #1D1D1D;
+    border: none;
+}
+
+.dropdown-item {
+    color: #F3F1EC;
+}
+
+.dropdown-item:hover {
+    background-color: #333;
+    color: #F26B1D;
+}
+
+/* General Sections */
+.page-section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #1D1D1D;
+}
+
+.intro-text {
+    font-style: italic;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #F26B1D;
+    border-color: #F26B1D;
+    color: #F3F1EC;
+    padding: 0.75rem 1.5rem;
+    font-weight: 700;
+    border-radius: 0.3rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #E05F1C;
+    border-color: #E05F1C;
+}
+
+.btn-secondary {
+    background-color: #555;
+    border-color: #555;
+    color: #F3F1EC;
+}
+
+.btn-secondary:hover {
+    background-color: #444;
+    border-color: #444;
+}
+
+/* Forms */
+.form-section {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Centraliza */
+    max-width: 600px; /* Largura máxima para formulários */
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #1D1D1D;
+    text-align: left;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    border-radius: 0.3rem;
+    border: 1px solid #ddd;
+    padding: 0.75rem 1rem;
+    width: 100%;
+}
+
+.form-control:focus {
+    border-color: #F26B1D;
+    box-shadow: 0 0 0 0.25rem rgba(242, 107, 29, 0.25);
+}
+
+.is-invalid .form-control, .is-invalid .form-select {
+    border-color: #dc3545 !important;
+}
+
+.invalid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    color: #dc3545;
+}
+
+/* Service Boxes / Client Testimonials */
+.service-box, .client-card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.service-box img, .client-card img {
+    max-width: 100%;
+    height: 200px; /* Altura fixa para as imagens */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.service-box h3, .client-card h3 {
+    font-size: 1.75rem;
+    color: #F26B1D;
+}
+
+.client-card p {
+    font-style: italic;
+    color: #666;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #1D1D1D;
+    color: #F3F1EC;
+    padding: 2rem 0;
+}
+
+.site-footer a {
+    color: #F26B1D;
+}
+
+.site-footer a:hover {
+    color: #E05F1C;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    color: #F3F1EC;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #F26B1D;
+}
+
+/* Dashboard / Admin Panel specific styles */
+.list-group-item {
+    text-align: left;
+    padding: 1rem 1.25rem;
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: #f8f9fa; /* Light background for items */
+    margin-bottom: -1px; /* Remove double borders */
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.list-group-item:last-child {
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.list-group-item-action:hover {
+    background-color: #e9ecef; /* Lighter hover background */
+}
+
+.list-group-item-action.active {
+    background-color: #F26B1D;
+    border-color: #F26B1D;
+    color: white;
+}
+
+.table thead {
+    background-color: #1D1D1D;
+    color: #F3F1EC;
+}
+
+.table tbody tr:hover {
+    background-color: #f5f5f5;
+}
